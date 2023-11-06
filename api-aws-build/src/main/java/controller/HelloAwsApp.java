@@ -12,6 +12,7 @@ public class HelloAwsApp {
 
     @PostMapping("/hello")
     public ResponseEntity<String> sayHello() {
+        System.out.println("Aws move Test...");
         return new ResponseEntity<>("", HttpStatus.OK);
     }
 }
