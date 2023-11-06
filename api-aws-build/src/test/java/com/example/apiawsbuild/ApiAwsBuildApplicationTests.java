@@ -1,13 +1,13 @@
-package com.example.example;
+package com.example.apiawsbuild;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ExampleApplicationTests {
+class ApiAwsBuildApplicationTests {
 
-    @Test
-    void contextLoads() {
-    }
+	@Test
+	void contextLoads() {
+	}
 
 }
