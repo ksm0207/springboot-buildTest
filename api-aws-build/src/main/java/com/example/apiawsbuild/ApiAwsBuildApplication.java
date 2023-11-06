@@ -1,12 +1,13 @@
-package com.example.example;
+package com.example.apiawsbuild;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ExampleApplication {
-    // Run App
+public class ApiAwsBuildApplication {
+
     public static void main(String[] args) {
-        SpringApplication.run(ExampleApplication.class, args);
+        SpringApplication.run(ApiAwsBuildApplication.class, args);
     }
+
 }
