@@ -6,6 +6,7 @@ phases:
       java: corretto17
   build:
     commands:
+      - cd api-aws-build  # Change to the directory where your pom.xml is located
       - mvn clean install
   post_build:
     commands:
